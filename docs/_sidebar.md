@@ -1,2 +1,3 @@
-- [webpack](webpack/)
+- [webpack](webpack/readme)
 - [wepy-ui-ydj](wepy-ui-ydj/readme)
+- [demo](demo/readme)

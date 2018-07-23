@@ -14,15 +14,20 @@
   <div id="app">加载中...</div>
   <script>
     window.$docsify = {
-      name: 'demo',
-      repo: 'git@github.com:Onlylonger/tutor',
+      name: '管家 & 小程序',
+      // repo: 'git@github.com:Onlylonger/tutor',
       loadSidebar: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
-      }
+      },
+      subMaxLevel: 2,
+      themeColor: '#FD7598',
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 
 </html>
